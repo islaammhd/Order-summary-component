@@ -1,0 +1,120 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #DFE8FF;
+    margin: 0 20px;
+}
+img{
+    width: 100%;
+}
+.bgimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.container{
+    background-color: white;
+    border-radius: 15px;
+    min-width: 300px;
+    max-width: 400px;
+    height: 600px;
+    margin: 40px auto;
+    box-shadow: black 0px 10px 40px -20px;
+
+}
+
+.container .img1 img{
+    border-radius: 15px 15px 0 0;
+}
+
+.container .innerbox{
+    margin: 40px;
+}
+
+.container .innerbox h2{
+    /* border: 1px solid; */
+    padding: 0 50px;
+    margin: 0 0 20px;
+}
+
+.container .innerbox p{
+    font-weight: bold;
+    padding: 0 10px;
+    margin: 0 0 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.container .innerbox .box{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin: 0 0 20px;
+}
+
+.container .innerbox .box img,div,a{
+    flex: 1;
+    /* border: 1px solid; */
+}
+
+.container .innerbox .box div{
+    flex: 2;
+}
+
+.container .box img{
+    height: 50px;
+    width: 50px;
+}
+.container .box{
+    background-color: #F8F9FE;
+
+}
+
+.container .innerbox .rate{
+    color: hsl(224, 23%, 55%);
+}
+
+.container .innerbox a{
+    margin: 10px 0 0 0;
+    color: #382AE1;
+    font-weight: bold;
+}
+.container .innerbox a:hover{
+    text-decoration: none;
+    color: #8B81E4;
+}
+
+.container button{
+    background-color: #382AE1;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 15px;
+    margin: 0 0 20px;
+    box-shadow: black 0px 20px 100px -20px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: #766CF1;
+}
+
+.container .innerbox .can{
+    display: grid;
+    padding: 0 0 0 90px;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.container .innerbox .can:hover{
+    color: black;
+}
+
+
